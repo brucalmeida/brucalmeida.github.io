@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculadora . Juros Compostos</title>
+
+		<!-- meu css -->
+		<link rel="stylesheet" type="text/css" href="edit.css">
+
+		<!-- meu javascript -->
+		<script type="text/javascript" src="script.js"></script>
+
+		<!-- icones utilizados -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<div id="insttransp">
+			<div id="inst">
+				<i id="cat" class="fab fa-github-alt"></i>
+
+				<strong><h3>Calculadora de Juros Compostos</h3></strong>
+				<p>
+					Insira ao lado o capital inicial, a taxa de juros e o período em meses pelo qual se deseja calcular os juros.
+				</p>
+			</div>
+		</div>
+		
+		<div id="dadostransp">
+			<div id="dados">
+				<form id="juros">
+					<br><br>
+					Capital inicial: <input type="number" id="montante"><br>
+					<br>
+					Taxa de juros: <input type="number" id="taxa"><br>
+					<br>
+					Período em meses: <input type="number" id="tempo"><br>
+					<br>
+				</form>
+				<button onclick="calcular()">calcular</button>
+			</div>
+		</div>
+
+		<div id="resultadotransp">
+			<div id="resultado">
+			</div>
+		</div>
+
+		<div id="fimtransp">
+			<i class="fas fa-star"></i>
+		</div>
+	</body>
+</html>

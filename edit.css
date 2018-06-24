@@ -1,0 +1,76 @@
+body {
+	background: url(wallpaper.jpg);
+	background-size: cover;
+}
+
+#insttransp {
+	height: 300px;
+	width: 200px;
+	float: left;
+}
+
+#inst {
+	background: black;
+	color: white;
+	height: 300px;
+	width: 200px;
+	border-radius: 25px;
+	opacity: 0.65;
+	text-align: center;
+	font-size: 20px;
+}
+
+#cat {
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+#dadostransp {
+	height: 300px;
+	width: 400px;
+	padding-left: 60px;
+	float: left;
+}
+
+#dados {
+	background: black;
+	color: white;
+	height: 300px;
+	width: 400px;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 25px;
+	float: left;
+	opacity: 0.65;
+}
+
+button {
+	font-size: 20px;
+}
+
+#resultadotransp {
+	height: 300px;
+	width: 400px;
+	padding-left: 60px;
+	float: left;
+}
+
+#resultado {
+	background: black;
+	color: white;
+	height: 650px;
+	width: 400px;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 25px;
+	float: left;
+	opacity: 0.65;
+}
+
+#fimtransp {
+	opacity: 0.65;
+	font-size: 100px;
+	padding-top: 90px;
+	padding-left: 60px;
+	float: left;
+}
